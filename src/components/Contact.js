@@ -22,13 +22,14 @@ export const Contact = () => {
           <input
             type="email"
             name="email"
-            placeholder="Lütfen Email Giriniz..."
+            placeholder="Lütfen Emailinizi Giriniz..."
           />
-          <label>Ad Soyad</label>
-          <textarea
-            name="message"
-            placeholder="Lütfen Metninizi Giriniz..."
-          ></textarea>
+          <label>Mesajınız</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Lütfen Adınızı Soyadınızı Giriniz..."
+          />
         </form>
       </div>
     </div>
